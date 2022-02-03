@@ -26,9 +26,9 @@
 		raise {
 			bindings = <
 				&trans        &kp F1          &kp F2          &kp F3        &kp F4    &kp F5    &kp F6    &kp F7    &kp F8       &kp F9      &kp F10       &kp F11       &kp F12            &kp INS      &kp DEL
-				&kp CLCK      &trans      &kp UP      &trans    &trans    &trans    &trans    &trans    &trans       &trans      &trans        &kp UP        &trans             &reset
+				&kp CLCK      &trans      &kp UP      &trans    &trans    &bt BT_PRV    &bt BT_NXT    &bt BT_CLR    &trans       &trans      &trans        &kp UP        &trans             &reset
 				&trans        &kp LEFT    &kp DOWN    &kp RIGHT    &trans    &trans    &trans    &trans    &trans       &trans      &kp LEFT      &kp RIGHT     &trans
-				&trans        &trans	&trans          &trans          &trans        &trans    &trans    &trans    &bt BT_PRV    &bt BT_NXT       &bt BT_CLR      &kp DOWN      &trans        &trans
+				&trans        &trans	&trans          &trans          &trans        &trans    &trans    &trans    &trans    &trans      &trans      &kp DOWN      &trans        &trans
 				&trans        &trans          &trans                                                      &bootloader                                      &trans        &trans             &trans
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
