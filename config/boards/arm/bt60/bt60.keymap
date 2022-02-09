@@ -39,7 +39,7 @@
 				&kp CLCK      &trans      &trans &kp UP       &trans    &bt BT_PRV    &bt BT_NXT    &bt BT_CLR    &trans       &trans      &trans        &kp UP        &trans             &reset
 				&trans        &trans 	 &kp LEFT    &kp DOWN    &kp RIGHT    &trans    &trans    &trans    &trans       &trans      &kp LEFT      &kp RIGHT     &trans
 				&trans        &trans	&trans          &trans          &trans        &trans    &trans    &trans    &trans    &trans      &trans      &kp DOWN      &trans        &trans
-				&trans        &trans          &trans                                                      &bootloader                                      &trans        &trans        &trans	&trans
+				&trans        &trans          &trans                                                      &bootloader                                      &C_VOL_DN        &C_VOL_UP        &C_MUTE	&trans
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
